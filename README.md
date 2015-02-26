@@ -1,120 +1,208 @@
 
-NewRelic ClearClouds Plugin
+<html>
 
-1        Introduction
+<body lang=EN-US link=blue vlink=purple style='text-justify-trim:punctuation'>
 
-The New Relic ClearClouds Plugin is published and supported by ClearClouds team. This plugin provides real-time network visibility from wire data that is typically unavailable from APM solutions. Currently the following metrics are recorded:
+<div class=WordSection1 style='layout-grid:15.6pt'>
 
-1.1          TCP
+<h1 align=center style='text-align:center'>NewRelic ClearClouds Plugin</h1>
 
-1.1.1     Throughput: Total, Inbound and Outbound
+<p class=MsoNormal><span style='font-family:"Times New Roman","serif"'>The New
+Relic ClearClouds Plugin is published and supported by ClearClouds team. This plugin
+provides real-time network visibility from wire data that is typically unavailable
+from APM solutions. Currently the following metrics are recorded:</span></p>
 
-1.1.2     Latency: Client side and Server side
+<p class=MsoNormal><b><span style='font-family:"Times New Roman","serif"'>&nbsp;</span></b></p>
 
-1.1.3     Close Status: FIN, TIMEOUT, RESET
+<p class=MsoNormal><b><span style='font-family:"Times New Roman","serif"'>TCP</span></b></p>
 
-1.1.4     New/Close connections : Requests per second
+<p class=MsoListParagraph style='margin-left:.5in;text-indent:-14.75pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Times New Roman","serif"'>Throughput:
+Total, Client side, Server side, Inbound and Outbound</span></p>
 
-1.1.5     Retransmission Rate
+<p class=MsoListParagraph style='margin-left:.5in;text-indent:-14.75pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Times New Roman","serif"'>Latency</span></p>
 
-1.1.6     Attack (count per second): SYN, Scan
+<p class=MsoListParagraph style='margin-left:.5in;text-indent:-14.75pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Times New Roman","serif"'>Close Status:
+FIN, TIMEOUT, RESET</span></p>
 
-1.2          HTTP 
+<p class=MsoListParagraph style='margin-left:.5in;text-indent:-14.75pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Times New Roman","serif"'>New/Close
+connections : Requests per second</span></p>
 
-1.2.1     Traffic
+<p class=MsoListParagraph style='margin-left:.5in;text-indent:-14.75pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Times New Roman","serif"'>Retransmission
+Rate</span></p>
 
-1.2.2     Latency
+<p class=MsoListParagraph style='margin-left:.5in;text-indent:-14.75pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Times New Roman","serif"'>Attack (count
+per second):SYN, Scan</span></p>
 
-1.2.3     Status Codes Count
+<p class=MsoNormal><b><span style='font-family:"Times New Roman","serif"'>HTTP </span></b></p>
 
-1.2.4     Error Rate
+<p class=MsoListParagraph style='margin-left:.5in;text-indent:-14.75pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Times New Roman","serif"'>Traffic</span></p>
 
-1.2.5     Apdex: users' satisfaction rate on URL
+<p class=MsoListParagraph style='margin-left:.5in;text-indent:-14.75pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Times New Roman","serif"'>Latency</span></p>
 
-1.3          Alerts
+<p class=MsoListParagraph style='margin-left:.5in;text-indent:-14.75pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Times New Roman","serif"'>Status Codes
+Count</span></p>
 
-New Relic allows you to setup at most 5 metrics. For each of the metrics, you can set a caution threshold and a critical threshold signaled by different colors. Alert policies can be configured against those metrics. When an alert is trigged, New relic platform will not only display it on the GUI, but also inform you via an email or other ways based on your configuration. The alert frequency is once per 30 minutes. Below are the metrics:
+<p class=MsoListParagraph style='margin-left:.5in;text-indent:-14.75pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Times New Roman","serif"'>Error Rate</span></p>
 
-1.3.1     Latency
+<p class=MsoListParagraph style='margin-left:.5in;text-indent:-14.75pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Times New Roman","serif"'>Apdex: users'
+satisfaction rate on URL</span></p>
 
-1.3.2     Bytes
+<p class=MsoNormal><b><span style='font-family:"Times New Roman","serif"'>Alerts</span></b></p>
 
-1.3.3     Error Rate
+<p class=MsoNormal style='margin-left:21.0pt'><span style='font-family:"Times New Roman","serif"'>New
+Relic allows you to setup at most 5 metrics. For each of the metrics, you can
+set a caution threshold and a critical threshold signaled by different colors.
+Alert policies can be configured against those metrics. When an alert is
+trigged, New relic platform will not only display it on the GUI, but also inform
+you via an email or other ways based on your configuration. The alert frequency
+is once per 30 minutes. Below are the metrics:</span></p>
 
-1.3.4     Apdex
+<p class=MsoListParagraph style='margin-left:40.5pt;text-indent:-.25in'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Times New Roman","serif"'>Latency</span></p>
 
-1.3.5     Attack
+<p class=MsoListParagraph style='margin-left:40.5pt;text-indent:-.25in'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Times New Roman","serif"'>Bytes</span></p>
 
-2        Requirements
+<p class=MsoListParagraph style='margin-left:40.5pt;text-indent:-.25in'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Times New Roman","serif"'>Error Rate</span></p>
 
-2.1          The iprobe_plugin need to be installed on the same appliance as the iProbe. 
+<p class=MsoListParagraph style='margin-left:40.5pt;text-indent:-.25in'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Times New Roman","serif"'>Apdex</span></p>
 
-2.2          OS : CentOS 6.2 (64Bits) or later
+<p class=MsoListParagraph style='margin-left:40.5pt;text-indent:-.25in'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Times New Roman","serif"'>Attack</span></p>
 
-2.3          Disk :    more than 50G
+<p class=MsoNormal><b><span style='font-size:12.0pt'>&nbsp;</span></b></p>
 
-2.4          Memory : more than 1G
+<p class=MsoNormal><b><span style='font-size:12.0pt'>&nbsp;</span></b></p>
 
-2.5          Software : Python 2.6 or later and cx_freeze-4.3.3 or later
+<p class=MsoNormal><b><span style='font-size:20.0pt'>Requirements</span></b></p>
 
-3        Source URL:
+<p class=MsoNormal><b><span style='font-size:16.0pt'>==============================================</span></b></p>
 
-3.1          iProbe:  http://www.clearclouds.com/upload/iProbe-VM-1.0-20150205.zip
+<p class=MsoNormal>The NewRelic ClearClouds Plugin need to be installed on the
+same appliance as the iProbe. </p>
 
-3.2          plugin :  https://github.com/GitClearClouds/iprobe-newrelic-plugin.git
+<p class=MsoNormal>OS : CentOS6.2 64Bits or later</p>
 
-4         Running and Installation
+<p class=MsoNormal>Software : Python 2.6 or later</p>
 
-4.1          Install virtual machine and P-100
+<p class=MsoNormal><b><span style='font-size:16.0pt'>&nbsp;</span></b></p>
 
-Please refer to ISO install.txt to install 
+<p class=MsoNormal><b><span style='font-size:20.0pt'>Running and Installation</span></b></p>
 
-4.2          Install plugin
+<p class=MsoNormal><b><span style='font-size:16.0pt'>=====================================================</span></b></p>
 
-4.2.1     download iprobe-newrelic-plugin-master.zip from https://github.com/GitClearClouds/iprobe-newrelic-plugin.git
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><a
+name="_GoBack"></a><b>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></b><b>Install plugin</b></p>
 
-4.2.2     enter the download directory
+<p class=MsoListParagraph align=left style='margin-left:40.5pt;text-align:left;
+text-indent:-22.5pt'>a)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Download iprobe_newrelic_plugin.zip from <a
+href="https://github.com/GitClearClouds/iprobe_newrelic_plugin.git"><span
+style='color:windowtext;text-decoration:none'>https://github.com/GitClearClouds/iprobe_newrelic_plugin</span></a></p>
 
-4.2.3     unzip iprobe-newrelic-plugin-master.zip
+<p class=MsoListParagraph align=left style='margin-left:40.5pt;text-align:left;
+text-indent:-22.5pt'>b)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Enter the download directory</p>
 
-4.2.4     cd iprobe-newrelic-plugin-master/ iprobe-newrelic-plugin-master
+<p class=MsoListParagraph align=left style='margin-left:40.5pt;text-align:left;
+text-indent:-22.5pt'>c)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Unzip iprobe_newrelic_plugin.zip</p>
 
-4.2.5     chmod -R 777  ./*
+<p class=MsoListParagraph style='margin-left:40.5pt;text-indent:-22.5pt'>d)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>cd iprobe_newrelic_plugin</p>
 
-4.2.6     sudo python setup.py install
+<p class=MsoListParagraph style='margin-left:40.5pt;text-indent:-22.5pt'>e)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>chmod -R 777  ./*</p>
 
-4.3          configuration
+<p class=MsoListParagraph style='margin-left:40.5pt;text-indent:-22.5pt'>f)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>sudo python setup.py install</p>
 
-4.3.1     Run the plugin only once:
+<p class=MsoNormal style='margin-left:.25in;text-indent:-.25in'>&nbsp;</p>
 
-iprobe_ plugin  -d <datadir>  -n <pluginid>  -k <newrelickey>
+<p class=MsoListParagraph style='margin-left:.25in;text-indent:-.25in'><b>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></b><b>Configuration</b></p>
 
-The parameters are defined as below:
+<p class=MsoNormal style='margin-left:.25in'>Run the plugin only once:</p>
 
-<datadir>  :  your data directory
+<p class=MsoNormal style='margin-left:40.5pt;text-indent:-22.5pt'>iprobe_ plugin 
+-d &lt;datadir&gt;  -n &lt;pluginid&gt;  -k &lt;newrelickey&gt;</p>
 
-<pluginid>  :  your plugin name, generally server name
+<p class=MsoNormal style='margin-left:40.5pt;text-indent:-22.5pt'>          &lt;datadir&gt; 
+:  your data directory</p>
 
-<newrelickey>  :  your license key from your New Relic account.
+<p class=MsoNormal style='margin-left:40.5pt;text-indent:-22.5pt'>          &lt;pluginid&gt; 
+:  your plugin name, generally server name</p>
 
-4.3.2     e.g :
+<p class=MsoNormal style='margin-left:40.5pt;text-indent:-22.5pt'>          &lt;newrelickey&gt; 
+:  your license key from your New Relic account.</p>
 
-iprobe_plugin -d /home/juyun/datafile  -n ClearClouds -k 19e5cb7a2ec9c43a7a90cec3360fb7b5868d08d6
+<p class=MsoListParagraph style='margin-left:22.5pt;text-indent:0in'>e.g :</p>
 
-4.3.3     until print message as below:
+<p class=MsoListParagraph align=left style='margin-left:22.5pt;text-align:left;
+text-indent:0in'>iprobe_plugin -d /home/juyun/datafile  -n ClearClouds -k 19e5cb7a2ec9c43a7a90cec3360fb7b5868d08d6</p>
 
-datadir= home/juyun/datafile
+<p class=MsoNormal><b>&nbsp;</b></p>
 
-pluginid= ClearClouds
+<p class=MsoListParagraph style='margin-left:21.25pt;text-indent:-21.25pt'><b>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></b><b>Execute the plugin</b></p>
 
-newrelickey=19e5cb7a2ec9c43a7a90cec3360fb7b5868d08d6
+<p class=MsoNormal>         iprobe_plugin -r</p>
 
-4.4          Execute fetcher
+<p class=MsoNormal><b>&nbsp;</b></p>
 
-iprobe_plugin  -r
+<p class=MsoListParagraph style='text-indent:0in'><b>&nbsp;</b></p>
 
- 
+<p class=MsoListParagraph style='text-indent:0in'><b>About Us : </b><a
+href="http://www.clearclouds.com/about/">http://www.clearclouds.com/ </a></p>
 
- 
+<p class=MsoListParagraph style='margin-left:21.25pt;text-indent:-21.25pt'><b>Surport:
+</b>https://github.com/gitclearclouds/iprobe-newrelic-plugin/issues</p>
 
- 
+<p class=MsoListParagraph align=left style='margin-left:21.25pt;text-align:
+left;text-indent:-21.25pt'><b>plugin Download: </b>https://github.com/gitclearclouds/iprobe-newrelic-plugin</p>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+</div>
+
+</body>
+
+</html>
