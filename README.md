@@ -19,11 +19,11 @@ from APM solutions. Currently the following metrics are recorded:</span></p>
 <p class=MsoListParagraph style='margin-left:.5in;text-indent:-14.75pt'><span
 style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-family:"Times New Roman","serif"'>Throughput:
-Total, Client side, Server side, Inbound and Outbound</span></p>
+Total, Inbound and Outbound</span></p>
 
 <p class=MsoListParagraph style='margin-left:.5in;text-indent:-14.75pt'><span
 style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-family:"Times New Roman","serif"'>Latency</span></p>
+</span></span><span style='font-family:"Times New Roman","serif"'>Latency:Client side, Server side</span></p>
 
 <p class=MsoListParagraph style='margin-left:.5in;text-indent:-14.75pt'><span
 style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -126,9 +126,9 @@ name="_GoBack"></a><b>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&
 
 <p class=MsoListParagraph align=left style='margin-left:40.5pt;text-align:left;
 text-indent:-22.5pt'>a)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Download iprobe_newrelic_plugin.zip from <a
-href="https://github.com/GitClearClouds/iprobe_newrelic_plugin.git"><span
-style='color:windowtext;text-decoration:none'>https://github.com/GitClearClouds/iprobe_newrelic_plugin</span></a></p>
+</span>Download iprobe-newrelic-plugin-master.zip from <a
+href="https://github.com/gitclearclouds/iprobe-newrelic-plugin.git"><span
+style='color:windowtext;text-decoration:none'>https://github.com/gitclearclouds/iprobe-newrelic-plugin</span></a></p>
 
 <p class=MsoListParagraph align=left style='margin-left:40.5pt;text-align:left;
 text-indent:-22.5pt'>b)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -136,11 +136,11 @@ text-indent:-22.5pt'>b)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&n
 
 <p class=MsoListParagraph align=left style='margin-left:40.5pt;text-align:left;
 text-indent:-22.5pt'>c)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Unzip iprobe_newrelic_plugin.zip</p>
+</span>Unzip iprobe-newrelic-plugin-master.zip</p>
 
 <p class=MsoListParagraph style='margin-left:40.5pt;text-indent:-22.5pt'>d)<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>cd iprobe_newrelic_plugin</p>
+</span>cd iprobe-newrelic-plugin-master/iprobe-newrelic-plugin-master</p>
 
 <p class=MsoListParagraph style='margin-left:40.5pt;text-indent:-22.5pt'>e)<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
