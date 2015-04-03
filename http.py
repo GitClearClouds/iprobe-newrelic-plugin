@@ -18,33 +18,33 @@ def format_data_http(json_http,refresh_time):
 		json_http_all = 0
 
 	try:
-		http_latency = json_http_all["LATENCY"]
+		http_latency = json_http_all["dynamic_latency"]
 	except:
 		http_latency = 0
 
 	try:
-		http_latency_total = json_http_all["LATENCY_TOTAL"]
+		http_latency_total = json_http_all["dynamic_latency_total"]
 	except:
 		http_latency_total = 0
 
 	try:
-		http_bytes= json_http_all["BYTES"] * bitcount / refresh_time
+		http_bytes= json_http_all["bytes_total"] * bitcount / refresh_time
 	except:
 		http_bytes = 0
 
 	try:
-		http_bytes_in = json_http_all["BYTES_IN"] * bitcount / refresh_time
+		http_bytes_in = json_http_all["bytes_in"] * bitcount / refresh_time
 	except:
 		http_bytes_in = 0
 
 
 	try:
-		http_bytes_out = json_http_all["BYTES_OUT"] * bitcount / refresh_time
+		http_bytes_out = json_http_all["bytes_out"] * bitcount / refresh_time
 	except:
 		http_bytes_out = 0
 
 	try:
-		http_requests= json_http_all["REQUESTS"] / refresh_time
+		http_requests= json_http_all["dynamic_requests"] / refresh_time
 	except:
 		http_requests = 0
 
